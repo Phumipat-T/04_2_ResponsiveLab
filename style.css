@@ -41,3 +41,29 @@ body {
     height: 50px;
 }
 
+@media screen and (max-width:540px) {
+    .content {
+        width: 100%;
+    }
+    .sideboard {
+        width: 100%;
+        background-color:rgb(163, 163, 113);
+    }
+    .banner {
+        background-color:rgb(223, 174, 14);
+    }
+}
+
+@media screen and (min-width:768px){
+    .content{
+        width:100%;
+        background-color: white;
+    }
+    .sideboard{
+        width:100%;
+        background-color:darkgoldenrod;
+    }
+    .banner{
+        background-color:royalblue;
+    }
+}
