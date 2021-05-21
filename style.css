@@ -67,3 +67,16 @@ body {
         background-color:royalblue;
     }
 }
+
+@media screen and (min-width:1024px){
+    .content{
+        width:50%;
+    }
+    .sideboard{
+        width:50%;
+        background-color:rgb(163, 163, 113);
+    }
+    .banner{
+        background-color:darkgoldenrod;
+    }
+}
